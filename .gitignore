@@ -1,0 +1,17 @@
+data/
+.idea/
+
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.mypy_cache/
+.ruff_cache/
+.pytest_cache/
+
+.venv/
+venv/
+env/
+
+.DS_Store
+Thumbs.db

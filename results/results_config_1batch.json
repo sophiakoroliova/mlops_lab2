@@ -1,0 +1,15 @@
+{
+  "config": "configs/config_1batch.yaml",
+  "metrics": {
+    "accuracy": 0.6277,
+    "precision": 0.6309895558536874,
+    "recall": 0.6277,
+    "f1": 0.6261779380937516
+  },
+  "train_batches": [
+    1
+  ],
+  "val_batches": [
+    5
+  ]
+}

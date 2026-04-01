@@ -1,0 +1,112 @@
+2026-04-01 09:01:28,563 | INFO | __main__ | Running with config: configs/config_1batch.yaml
+2026-04-01 09:01:28,909 | INFO | src.data.dataset | Train: 10000 images (batches [1])
+2026-04-01 09:01:28,909 | INFO | src.data.dataset | Val:   10000 images
+2026-04-01 09:01:28,909 | INFO | src.data.dataset | Test:  10000 images (STATIC)
+2026-04-01 09:02:12,109 | INFO | __main__ | Epoch [1/15] Train Loss: 1.7265 | Val Loss: 1.4574
+2026-04-01 09:02:57,236 | INFO | __main__ | Epoch [2/15] Train Loss: 1.3377 | Val Loss: 1.3470
+2026-04-01 09:03:36,859 | INFO | __main__ | Epoch [3/15] Train Loss: 1.1715 | Val Loss: 1.2513
+2026-04-01 09:04:19,630 | INFO | __main__ | Epoch [4/15] Train Loss: 1.0045 | Val Loss: 1.1409
+2026-04-01 09:05:00,491 | INFO | __main__ | Epoch [5/15] Train Loss: 0.8541 | Val Loss: 1.1431
+2026-04-01 09:05:45,049 | INFO | __main__ | Epoch [6/15] Train Loss: 0.7146 | Val Loss: 1.1835
+2026-04-01 09:06:25,948 | INFO | __main__ | Epoch [7/15] Train Loss: 0.6097 | Val Loss: 1.1247
+2026-04-01 09:07:05,303 | INFO | __main__ | Epoch [8/15] Train Loss: 0.4713 | Val Loss: 1.1764
+2026-04-01 09:07:44,673 | INFO | __main__ | Epoch [9/15] Train Loss: 0.3546 | Val Loss: 1.2646
+2026-04-01 09:08:25,012 | INFO | __main__ | Epoch [10/15] Train Loss: 0.2651 | Val Loss: 1.3096
+2026-04-01 09:09:06,865 | INFO | __main__ | Epoch [11/15] Train Loss: 0.2156 | Val Loss: 1.4026
+2026-04-01 09:10:22,303 | INFO | __main__ | Epoch [12/15] Train Loss: 0.1589 | Val Loss: 1.4678
+2026-04-01 09:11:02,909 | INFO | __main__ | Epoch [13/15] Train Loss: 0.1070 | Val Loss: 1.6119
+2026-04-01 09:11:42,576 | INFO | __main__ | Epoch [14/15] Train Loss: 0.0858 | Val Loss: 1.6093
+2026-04-01 09:12:22,312 | INFO | __main__ | Epoch [15/15] Train Loss: 0.0706 | Val Loss: 1.6716
+2026-04-01 09:12:41,023 | INFO | __main__ | 
+=== FINAL TEST (STATIC) RESULTS ===
+2026-04-01 09:12:41,023 | INFO | __main__ | Accuracy:  0.6277
+2026-04-01 09:12:41,023 | INFO | __main__ | Precision: 0.6310
+2026-04-01 09:12:41,023 | INFO | __main__ | Recall:    0.6277
+2026-04-01 09:12:41,023 | INFO | __main__ | F1-score:  0.6262
+
+2026-04-01 09:12:43,739 | INFO | __main__ | Loss plot saved: results/loss_plot_config_1batch.png
+2026-04-01 09:12:43,739 | INFO | __main__ | Results saved: results/results_config_1batch.json
+2026-04-01 09:14:39,039 | INFO | __main__ | Running with config: configs/config_2batches.yaml
+2026-04-01 09:14:39,447 | INFO | src.data.dataset | Train: 20000 images (batches [1, 2])
+2026-04-01 09:14:39,447 | INFO | src.data.dataset | Val:   10000 images
+2026-04-01 09:14:39,447 | INFO | src.data.dataset | Test:  10000 images (STATIC)
+2026-04-01 09:15:25,769 | INFO | __main__ | Epoch [1/15] Train Loss: 1.6271 | Val Loss: 1.3363
+2026-04-01 09:16:12,834 | INFO | __main__ | Epoch [2/15] Train Loss: 1.1930 | Val Loss: 1.1067
+2026-04-01 09:16:57,723 | INFO | __main__ | Epoch [3/15] Train Loss: 1.0032 | Val Loss: 1.0343
+2026-04-01 09:17:43,465 | INFO | __main__ | Epoch [4/15] Train Loss: 0.8636 | Val Loss: 0.9971
+2026-04-01 09:18:28,087 | INFO | __main__ | Epoch [5/15] Train Loss: 0.7493 | Val Loss: 0.9605
+2026-04-01 09:19:18,635 | INFO | __main__ | Epoch [6/15] Train Loss: 0.6195 | Val Loss: 0.9387
+2026-04-01 09:20:03,376 | INFO | __main__ | Epoch [7/15] Train Loss: 0.5101 | Val Loss: 1.0017
+2026-04-01 09:20:44,156 | INFO | __main__ | Epoch [8/15] Train Loss: 0.4095 | Val Loss: 1.0150
+2026-04-01 09:21:24,760 | INFO | __main__ | Epoch [9/15] Train Loss: 0.3131 | Val Loss: 1.0703
+2026-04-01 09:22:07,198 | INFO | __main__ | Epoch [10/15] Train Loss: 0.2459 | Val Loss: 1.1168
+2026-04-01 09:22:48,165 | INFO | __main__ | Epoch [11/15] Train Loss: 0.1920 | Val Loss: 1.1673
+2026-04-01 09:23:27,596 | INFO | __main__ | Epoch [12/15] Train Loss: 0.1549 | Val Loss: 1.2050
+2026-04-01 09:24:07,849 | INFO | __main__ | Epoch [13/15] Train Loss: 0.1090 | Val Loss: 1.2999
+2026-04-01 09:24:49,579 | INFO | __main__ | Epoch [14/15] Train Loss: 0.0984 | Val Loss: 1.3927
+2026-04-01 09:25:30,247 | INFO | __main__ | Epoch [15/15] Train Loss: 0.0883 | Val Loss: 1.4447
+2026-04-01 09:25:46,678 | INFO | __main__ | 
+=== FINAL TEST (STATIC) RESULTS ===
+2026-04-01 09:25:46,678 | INFO | __main__ | Accuracy:  0.6755
+2026-04-01 09:25:46,678 | INFO | __main__ | Precision: 0.6782
+2026-04-01 09:25:46,678 | INFO | __main__ | Recall:    0.6755
+2026-04-01 09:25:46,678 | INFO | __main__ | F1-score:  0.6755
+
+2026-04-01 09:25:47,194 | INFO | __main__ | Loss plot saved: results/loss_plot_config_2batches.png
+2026-04-01 09:25:47,196 | INFO | __main__ | Results saved: results/results_config_2batches.json
+2026-04-01 09:26:23,611 | INFO | __main__ | Running with config: configs/config_3batches.yaml
+2026-04-01 09:26:23,833 | INFO | src.data.dataset | Train: 30000 images (batches [1, 2, 3])
+2026-04-01 09:26:23,833 | INFO | src.data.dataset | Val:   10000 images
+2026-04-01 09:26:23,833 | INFO | src.data.dataset | Test:  10000 images (STATIC)
+2026-04-01 09:27:09,905 | INFO | __main__ | Epoch [1/15] Train Loss: 1.4295 | Val Loss: 1.1960
+2026-04-01 09:27:57,762 | INFO | __main__ | Epoch [2/15] Train Loss: 1.0347 | Val Loss: 0.9859
+2026-04-01 09:28:45,872 | INFO | __main__ | Epoch [3/15] Train Loss: 0.8581 | Val Loss: 0.9428
+2026-04-01 09:29:34,166 | INFO | __main__ | Epoch [4/15] Train Loss: 0.7261 | Val Loss: 0.9165
+2026-04-01 09:30:21,505 | INFO | __main__ | Epoch [5/15] Train Loss: 0.5926 | Val Loss: 0.8957
+2026-04-01 09:31:09,341 | INFO | __main__ | Epoch [6/15] Train Loss: 0.4724 | Val Loss: 0.8743
+2026-04-01 09:31:56,222 | INFO | __main__ | Epoch [7/15] Train Loss: 0.3656 | Val Loss: 0.8909
+2026-04-01 09:32:42,837 | INFO | __main__ | Epoch [8/15] Train Loss: 0.2722 | Val Loss: 0.9689
+2026-04-01 09:33:29,230 | INFO | __main__ | Epoch [9/15] Train Loss: 0.2024 | Val Loss: 1.0552
+2026-04-01 09:34:17,593 | INFO | __main__ | Epoch [10/15] Train Loss: 0.1597 | Val Loss: 1.1000
+2026-04-01 09:35:05,772 | INFO | __main__ | Epoch [11/15] Train Loss: 0.1273 | Val Loss: 1.1892
+2026-04-01 09:35:54,373 | INFO | __main__ | Epoch [12/15] Train Loss: 0.1048 | Val Loss: 1.2181
+2026-04-01 09:36:57,061 | INFO | __main__ | Epoch [13/15] Train Loss: 0.0961 | Val Loss: 1.2741
+2026-04-01 09:37:44,278 | INFO | __main__ | Epoch [14/15] Train Loss: 0.0814 | Val Loss: 1.3774
+2026-04-01 09:38:34,682 | INFO | __main__ | Epoch [15/15] Train Loss: 0.0796 | Val Loss: 1.4405
+2026-04-01 09:38:53,777 | INFO | __main__ | 
+=== FINAL TEST (STATIC) RESULTS ===
+2026-04-01 09:38:53,789 | INFO | __main__ | Accuracy:  0.7105
+2026-04-01 09:38:53,789 | INFO | __main__ | Precision: 0.7167
+2026-04-01 09:38:53,789 | INFO | __main__ | Recall:    0.7105
+2026-04-01 09:38:53,789 | INFO | __main__ | F1-score:  0.7106
+
+2026-04-01 09:38:54,137 | INFO | __main__ | Loss plot saved: results/loss_plot_config_3batches.png
+2026-04-01 09:38:54,137 | INFO | __main__ | Results saved: results/results_config_3batches.json
+2026-04-01 09:39:31,888 | INFO | __main__ | Running with config: configs/config_full.yaml
+2026-04-01 09:39:32,162 | INFO | src.data.dataset | Train: 40000 images (batches [1, 2, 3, 4])
+2026-04-01 09:39:32,163 | INFO | src.data.dataset | Val:   10000 images
+2026-04-01 09:39:32,163 | INFO | src.data.dataset | Test:  10000 images (STATIC)
+2026-04-01 09:40:22,293 | INFO | __main__ | Epoch [1/15] Train Loss: 1.3789 | Val Loss: 1.0813
+2026-04-01 09:41:28,023 | INFO | __main__ | Epoch [2/15] Train Loss: 0.9754 | Val Loss: 0.9373
+2026-04-01 09:42:43,876 | INFO | __main__ | Epoch [3/15] Train Loss: 0.8173 | Val Loss: 0.8623
+2026-04-01 09:43:43,946 | INFO | __main__ | Epoch [4/15] Train Loss: 0.6849 | Val Loss: 0.8499
+2026-04-01 09:45:07,047 | INFO | __main__ | Epoch [5/15] Train Loss: 0.5686 | Val Loss: 0.8150
+2026-04-01 09:46:01,972 | INFO | __main__ | Epoch [6/15] Train Loss: 0.4651 | Val Loss: 0.8400
+2026-04-01 09:46:53,785 | INFO | __main__ | Epoch [7/15] Train Loss: 0.3643 | Val Loss: 0.8784
+2026-04-01 09:47:45,859 | INFO | __main__ | Epoch [8/15] Train Loss: 0.2814 | Val Loss: 0.9511
+2026-04-01 09:48:37,788 | INFO | __main__ | Epoch [9/15] Train Loss: 0.2239 | Val Loss: 1.0049
+2026-04-01 09:49:32,798 | INFO | __main__ | Epoch [10/15] Train Loss: 0.1753 | Val Loss: 1.0820
+2026-04-01 09:50:27,645 | INFO | __main__ | Epoch [11/15] Train Loss: 0.1480 | Val Loss: 1.1480
+2026-04-01 09:51:20,833 | INFO | __main__ | Epoch [12/15] Train Loss: 0.1289 | Val Loss: 1.2268
+2026-04-01 09:52:13,820 | INFO | __main__ | Epoch [13/15] Train Loss: 0.1119 | Val Loss: 1.2617
+2026-04-01 09:53:05,348 | INFO | __main__ | Epoch [14/15] Train Loss: 0.1076 | Val Loss: 1.3376
+2026-04-01 09:53:57,989 | INFO | __main__ | Epoch [15/15] Train Loss: 0.0950 | Val Loss: 1.3937
+2026-04-01 09:54:13,477 | INFO | __main__ | 
+=== FINAL TEST (STATIC) RESULTS ===
+2026-04-01 09:54:13,477 | INFO | __main__ | Accuracy:  0.7216
+2026-04-01 09:54:13,477 | INFO | __main__ | Precision: 0.7286
+2026-04-01 09:54:13,477 | INFO | __main__ | Recall:    0.7216
+2026-04-01 09:54:13,477 | INFO | __main__ | F1-score:  0.7217
+
+2026-04-01 09:54:14,047 | INFO | __main__ | Loss plot saved: results/loss_plot_config_full.png
+2026-04-01 09:54:14,047 | INFO | __main__ | Results saved: results/results_config_full.json

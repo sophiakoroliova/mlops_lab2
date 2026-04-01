@@ -1,0 +1,34 @@
+[tool.poetry]
+name = "mlops-lab2"
+version = "0.1.0"
+description = ""
+authors = ["sophiakoroliova <89981226+sophiakoroliova@users.noreply.github.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = ">=3.11,<3.14"
+torch = {version = "^2.11.0", source = "pytorch"}
+torchvision = {version = "^0.26.0", source = "pytorch"}
+torchaudio = {version = "^2.11.0", source = "pytorch"}
+pyyaml = "^6.0.3"
+numpy = "^2.4.4"
+scikit-learn = "^1.8.0"
+pillow = "^12.1.1"
+matplotlib = "^3.10.8"
+
+[[tool.poetry.source]]
+name = "pytorch"
+url = "https://download.pytorch.org/whl/cpu"
+priority = "supplemental"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
+
+[dependency-groups]
+dev = [
+    "black (>=26.3.1,<27.0.0)",
+    "isort (>=8.0.1,<9.0.0)",
+    "ruff (>=0.15.8,<0.16.0)",
+    "mypy (>=1.20.0,<2.0.0)"
+]

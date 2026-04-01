@@ -1,0 +1,13 @@
+dataset:
+  name: cifar10
+  root: "data"
+  train_batch_ids: [1]
+  val_batch_ids: [5]
+  batch_size: 128
+  num_epochs: 15
+  learning_rate: 0.001
+  seed: 42
+
+logging:
+  level: INFO
+  file: "logs/training.log"
